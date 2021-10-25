@@ -2,20 +2,38 @@
 <html lang="en">
     <head>
         <title>Elton Menezes</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <img src="/images/profile-img.jpeg" alt="profile-img" height="250px" width="250px">
+        <div class="flex-container">
+            <div class="heading">
+                <h1>ELTON DE MENEZES</h1>
+                <p>Hello, i'm a software engineer</p>
+                <p>I'm currently training at KILOWOTT</p>
+            </div>
+            <div>
+                <img class="profile" src="/images/profile-img.jpeg" alt="profile-img">
+            </div>
+        </div>    
         <hr size="3px">
-        <h1><u>ELTON DE MENEZES</u></h1>
-        <p>Hello, i'm a software engineer</p>
-        <p>I'm currently training at KILOWOTT</p>
-        <hr size="3px">
-        <h3>I have a few hobbies that includes</h3>
-        <ol>
-            <li>Fitness enthusiast</li>
-            <li>Stock market</li>
-            <li>Playing football</li>
-        </ol>
+        <h2>My Hobbies</h2>
+        <table>
+            <tr>
+                <td><img class="bodybuilder" src="/images/body.builder.jpg" alt="body-builder"></td>
+                <td><h3>Im a fitness enthusiast</h3></td>
+            </tr>
+            <tr>
+                <td><h3>Im an active swing-trader</h3></td>
+                <td><img class="stockmarket" src="/images/stock-market.png" alt="stock-market"></td>
+            </tr>
+            <tr>
+                <td><img class="football" src="/images/football.png" alt="football"></td>
+                <td> <h3>I play football in my free time</h3></td>
+            </tr>
+        </table>
         <hr size="3px">
         <h3>You'll find a link below to some important tutorials</h3>
         <a href="/tutorials.html">TUTORIALS</a>     
