@@ -1,49 +1,67 @@
 * {
     box-sizing: border-box;
-    margin: 5px 70px;
+    margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    background-color: #F6EABE;
 }
 
-.flex-container {
+body {
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+
+.wrapper {
     display: flex;
-    justify-content: space-around;
+    position: relative;
 }
 
-.heading{
-    padding-top: 50px;
+.wrapper .sidebar {
+    position: fixed;
+    height: 83%;
+    width: 200px;
+    background-color: white;
+    padding: 100px 30px;
+    border-right-style: solid;
+    border-color:#ef5d57 ;
 }
 
-.heading h1 {
-    font-family: 'Roboto Mono', monospace;
+.wrapper .main-content {
+    width: 100%;
+    margin: 100px 300px 249px ;
 }
 
-img .profile{
-    border-radius: 50%;
+.main-content img {
     height: 250px;
     width: 250px;
-}
-
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 10px;
-    width: 5%;
-    margin: 50px auto;
-}
-
-img {
-    height: 200px;
-    width: 200px;
     border-radius: 50%;
 }
-
-h2 {
-    text-align: center;
+nav {
+    background-color:#ef5d57;
 }
 
-table {
-    padding-left: 200px;
+footer {
+    padding: 10px 30px;
+    background-color:#ef5d57;
+    color: white;
 }
+
+.navbar-nav {
+    padding-left: 80px;
+}
+
+.wrapper .main-content-links {
+    width: 100%;
+    margin: 100px 300px 370px ;
+}
+
+.ulist {
+    padding-left: 40px;
+}
+
+button {
+    margin-right: 30px;
+}
+
+.wrapper .main-content-tutlinks {
+    width: 100%;
+    margin: 100px 300px 410px;
+ }
